@@ -10,7 +10,6 @@
         top: 0;
         left: 0;
         right: 0;
-        // bottom: 15px;
         background-color: black;
         display: flex;
         justify-content: space-between;
@@ -27,8 +26,6 @@
             }
         }
 
-        // how to code the navbar fixed top by css?
-
         .navbar-collapse {
             ul {
                 color: white;
@@ -42,7 +39,6 @@
 
                     a {
                         font-family: "Open Sans", sans-serif;
-
                         text-decoration: none;
                         color: white;
                     }
@@ -55,11 +51,12 @@
         }
     }
 
-    .page-1 {
-        padding: 100px 200px;
+    .header {
+        padding: 200px 200px 100px 200px;
         display: flex;
         justify-content: space-between;
         background-image: url("../asset/header-bg.jpg");
+
         .title {
             width: 51%;
             font-family: "Raleway", sans-serif;
@@ -324,7 +321,7 @@
     }
 
     .our-process {
-        padding: 0 200px;
+        padding: 0 150px;
         padding-top: 80px;
 
         .our-process-heading {
@@ -357,6 +354,10 @@
         .text-center {
             display: flex;
             text-align: center;
+
+            .keyboard {
+                padding: 0 30px;
+            }
             i {
                 color: #ff8b38;
                 border: 2px solid #ff8b38;
@@ -365,13 +366,6 @@
                 height: 60px;
                 line-height: 60px;
             }
-
-            // i:hover {
-            //     width: 80px;
-            //     height: 80px;
-            //     align-items: center;
-            // }
-
             h4 {
                 text-align: center;
                 font-family: "Open Sans", sans-serif;
@@ -389,9 +383,6 @@
 
     .stylish-axure {
         background: url("../asset/u25_state0.gif") no-repeat top center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
         background-size: cover;
         position: relative;
         color: #fff;
@@ -441,9 +432,6 @@
                 padding: 12px 40px;
                 display: block;
                 transition: all 0.5s ease-in-out;
-                -webkit-transition: all 0.5s ease-in-out;
-                -o-transition: all 0.5s ease-in-out;
-                -moz-transition: all 0.5s ease-in-out;
             }
 
             button:hover {
@@ -524,7 +512,6 @@
             height: 40px;
             font-size: 15px;
             font-family: "Open Sans", sans-serif;
-            // font-weight: 800;
         }
 
         .btn-message:hover {

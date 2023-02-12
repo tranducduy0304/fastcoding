@@ -41,24 +41,24 @@
 .container .navbar .navbar-collapse ul li a:hover {
   color: #e27121;
 }
-.container .page-1 {
-  padding: 100px 200px;
+.container .header {
+  padding: 200px 200px 100px 200px;
   display: flex;
   justify-content: space-between;
   background-image: url("../asset/header-bg.jpg");
 }
-.container .page-1 .title {
+.container .header .title {
   width: 51%;
   font-family: "Raleway", sans-serif;
 }
-.container .page-1 .title h1 {
+.container .header .title h1 {
   font-weight: 900;
   font-size: 25px;
   color: white;
   text-transform: uppercase;
   padding-top: 25px;
 }
-.container .page-1 .title h1:after {
+.container .header .title h1:after {
   content: "";
   width: 80px;
   height: 2px;
@@ -66,13 +66,13 @@
   display: block;
   margin-top: 30px;
 }
-.container .page-1 .title p {
+.container .header .title p {
   color: #bbc1b8;
   line-height: 1.5;
   padding-top: 25px;
   padding-bottom: 35px;
 }
-.container .page-1 .title .btn-download {
+.container .header .title .btn-download {
   width: 140px;
   height: 45px;
   background-color: rgba(255, 255, 255, 0);
@@ -80,18 +80,18 @@
   font-size: 17px;
   border: 2.2px solid rgb(255, 255, 255);
 }
-.container .page-1 .title .btn-download:hover {
+.container .header .title .btn-download:hover {
   border: 2.2px solid #e27121;
   color: #e27121;
 }
-.container .page-1 .form form {
+.container .header .form form {
   width: 360px;
   background-color: #fff;
   height: 360px;
   text-align: center;
   border-radius: 5px;
 }
-.container .page-1 .form form h2 {
+.container .header .form form h2 {
   border-top-right-radius: 6px;
   border-top-left-radius: 6px;
   background-color: #f5f5f5;
@@ -104,12 +104,12 @@
   margin-bottom: 30px;
   text-align: center;
 }
-.container .page-1 .form form h2 span {
+.container .header .form form h2 span {
   color: #ff8b38;
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
 }
-.container .page-1 .form form .form-control {
+.container .header .form form .form-control {
   margin-left: 10px;
   border-radius: 0;
   border: none;
@@ -118,13 +118,13 @@
   margin: 0 auto 42.5px;
   height: 40px;
 }
-.container .page-1 .form form .form-control ::-moz-placeholder {
+.container .header .form form .form-control ::-moz-placeholder {
   height: 50px;
 }
-.container .page-1 .form form .form-control ::placeholder {
+.container .header .form form .form-control ::placeholder {
   height: 50px;
 }
-.container .page-1 .form form .btn-submit {
+.container .header .form form .btn-submit {
   background-color: #ff8b3b;
   font-family: "Open Sans", sans-serif;
   color: white;
@@ -136,7 +136,7 @@
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
-.container .page-1 .form form .btn-submit:hover {
+.container .header .form form .btn-submit:hover {
   background-color: #e27121;
 }
 .container .tabs-section {
@@ -271,7 +271,7 @@
   margin-right: 50px;
 }
 .container .our-process {
-  padding: 0 200px;
+  padding: 0 150px;
   padding-top: 80px;
 }
 .container .our-process .our-process-heading {
@@ -300,6 +300,9 @@
 .container .our-process .text-center {
   display: flex;
   text-align: center;
+}
+.container .our-process .text-center .keyboard {
+  padding: 0 30px;
 }
 .container .our-process .text-center i {
   color: #ff8b38;
@@ -368,9 +371,6 @@
   padding: 12px 40px;
   display: block;
   transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
 }
 .container .stylish-axure .overlay button:hover {
   border: 2px solid #e27121;
