@@ -63,28 +63,34 @@
                     <button class="btn-download">Download</button>
                 </div>
                 <div class="form">
-                    <h2>Try Your <span>Free</span> Trial Today</h2>
-                    <input
-                        class="form-control"
-                        type="text"
-                        placeholder="Name"
-                    />
-                    <br />
-                    <input
-                        class="form-control"
-                        type="email"
-                        placeholder="Email"
-                    /><br />
-                    <input
-                        class="form-control"
-                        type="password"
-                        placeholder="Password"
-                    />
-                    <input
-                        class="btn-submit"
-                        type="Submit"
-                        value="Get Started"
-                    />
+                    <form>
+                        <h2>Try Your <span>Free</span> Trial Today</h2>
+                        <input
+                            class="form-control"
+                            type="text"
+                            placeholder="Name"
+                        />
+                        <br />
+                        <input
+                            class="form-control"
+                            type="email"
+                            placeholder="Email"
+                        /><br />
+                        <input
+                            class="form-control"
+                            type="password"
+                            id="pass"
+                            name="password"
+                            placeholder="Password"
+                            minlength="8"
+                            required
+                        />
+                        <input
+                            class="btn-submit"
+                            type="Submit"
+                            value="Get Started"
+                        />
+                    </form>
                 </div>
             </div>
 
@@ -92,11 +98,9 @@
             <div class="tabs-section">
                 <div class="list-tabs">
                     <ul class="list-tabs">
-                        <li role="presentation" class="active uppercase">
-                            Tab 1
-                        </li>
-                        <li role="presentation" class="uppercase">Tab 2</li>
-                        <li role="presentation" class="uppercase">Tab 3</li>
+                        <li role="presentation" class="tab-1">Tab 1</li>
+                        <li role="presentation" class="tab-2">Tab 2</li>
+                        <li role="presentation" class="tab-3">Tab 3</li>
                     </ul>
                 </div>
 
@@ -138,11 +142,8 @@
                     </p>
 
                     <div class="list-icon">
-                        <i
-                            class="fa fa-cloud-download pull-left"
-                            aria-hidden="true"
-                        ></i>
-                        <div class="sub-list-content pull-left">
+                        <i class="fa fa-cloud-download" aria-hidden="true"></i>
+                        <div class="sub-list-content">
                             <h4>Title</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur
@@ -150,15 +151,9 @@
                             </p>
                         </div>
                     </div>
-
-                    <div class="clearfix"></div>
-
                     <div class="list-icon">
-                        <i
-                            class="fa fa-cloud-upload pull-left"
-                            aria-hidden="true"
-                        ></i>
-                        <div class="sub-list-content pull-left">
+                        <i class="fa fa-cloud-upload" aria-hidden="true"></i>
+                        <div class="sub-list-content">
                             <h4>Title</h4>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur
@@ -171,8 +166,8 @@
                 </div>
             </div>
 
+            <!-- Standard-picture -->
             <div class="standard-picture">
-                <!-- <div class="standard-picture-content"> -->
                 <div class="standard-content">
                     <h3>Standard Picture Section</h3>
                     <p>
@@ -189,11 +184,10 @@
                 <div class="img-skycrapers">
                     <img
                         class="img-responsive block-center"
-                        src="asset/sky-crapers.png"
+                        src="asset/sky.jpg"
                         alt="skycrapers"
                     />
                 </div>
-                <!-- </div> -->
             </div>
             <div class="our-process">
                 <div class="our-process-heading">
@@ -258,32 +252,15 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
                 </div>
-                <div class="form">
-                    <form>
-                        <div class="form-group">
-                            <input
-                                class="form-control input-lg"
-                                type="name"
-                                placeholder="Name"
-                            />
-                            <input
-                                class="form-control input-lg"
-                                type="email"
-                                placeholder="Email"
-                            />
-                            <input
-                                class="form-control input-lg"
-                                type="text"
-                                placeholder="Subject"
-                            />
-                        </div>
+                <div class="form-contact">
+                    <form class="form-group">
+                        <input type="text" placeholder="Name" />
+                        <br />
+                        <input type="email" placeholder="Email" /><br />
+                        <input type="text" placeholder="Subject" />
                     </form>
-                    <div class="col-md-6">
-                        <textarea
-                            class="form-control input-lg"
-                            placeholder="Messages"
-                        >
-                        </textarea>
+                    <div class="input-mesage">
+                        <textarea type="text" placeholder="Subject"> </textarea>
                     </div>
                 </div>
                 <button class="btn-message">Send Message</button>
